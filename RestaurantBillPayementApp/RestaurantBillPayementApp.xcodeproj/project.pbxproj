@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78C6C3EC2B5FC1DA001F9C1D /* RestaurantBillPayementAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C6C3EB2B5FC1DA001F9C1D /* RestaurantBillPayementAppApp.swift */; };
+		78C6C3EE2B5FC1DA001F9C1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C6C3ED2B5FC1DA001F9C1D /* ContentView.swift */; };
+		78C6C3F02B5FC1DC001F9C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C6C3EF2B5FC1DC001F9C1D /* Assets.xcassets */; };
+		78C6C3F32B5FC1DC001F9C1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C6C3F22B5FC1DC001F9C1D /* Preview Assets.xcassets */; };
+		78C6C3FD2B5FC1DC001F9C1D /* RestaurantBillPayementAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C6C3FC2B5FC1DC001F9C1D /* RestaurantBillPayementAppTests.swift */; };
+		78C6C4072B5FC1DC001F9C1D /* RestaurantBillPayementAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C6C4062B5FC1DC001F9C1D /* RestaurantBillPayementAppUITests.swift */; };
+		78C6C4092B5FC1DC001F9C1D /* RestaurantBillPayementAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C6C4082B5FC1DC001F9C1D /* RestaurantBillPayementAppUITestsLaunchTests.swift */; };
+		78C6C4162B5FC217001F9C1D /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C6C4152B5FC217001F9C1D /* PaymentViewModel.swift */; };
+		78C6C4182B60C1EF001F9C1D /* PaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C6C4172B60C1EF001F9C1D /* PaymentModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78C6C3F92B5FC1DC001F9C1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C6C3E02B5FC1DA001F9C1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78C6C3E72B5FC1DA001F9C1D;
+			remoteInfo = RestaurantBillPayementApp;
+		};
+		78C6C4032B5FC1DC001F9C1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C6C3E02B5FC1DA001F9C1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78C6C3E72B5FC1DA001F9C1D;
+			remoteInfo = RestaurantBillPayementApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78C6C3E82B5FC1DA001F9C1D /* RestaurantBillPayementApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantBillPayementApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C6C3EB2B5FC1DA001F9C1D /* RestaurantBillPayementAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantBillPayementAppApp.swift; sourceTree = "<group>"; };
+		78C6C3ED2B5FC1DA001F9C1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		78C6C3EF2B5FC1DC001F9C1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78C6C3F22B5FC1DC001F9C1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78C6C3F82B5FC1DC001F9C1D /* RestaurantBillPayementAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantBillPayementAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C6C3FC2B5FC1DC001F9C1D /* RestaurantBillPayementAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantBillPayementAppTests.swift; sourceTree = "<group>"; };
+		78C6C4022B5FC1DC001F9C1D /* RestaurantBillPayementAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantBillPayementAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C6C4062B5FC1DC001F9C1D /* RestaurantBillPayementAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantBillPayementAppUITests.swift; sourceTree = "<group>"; };
+		78C6C4082B5FC1DC001F9C1D /* RestaurantBillPayementAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantBillPayementAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		78C6C4152B5FC217001F9C1D /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
+		78C6C4172B60C1EF001F9C1D /* PaymentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78C6C3E52B5FC1DA001F9C1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C6C3F52B5FC1DC001F9C1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C6C3FF2B5FC1DC001F9C1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78C6C3DF2B5FC1DA001F9C1D = {
+			isa = PBXGroup;
+			children = (
+				78C6C3EA2B5FC1DA001F9C1D /* RestaurantBillPayementApp */,
+				78C6C3FB2B5FC1DC001F9C1D /* RestaurantBillPayementAppTests */,
+				78C6C4052B5FC1DC001F9C1D /* RestaurantBillPayementAppUITests */,
+				78C6C3E92B5FC1DA001F9C1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78C6C3E92B5FC1DA001F9C1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78C6C3E82B5FC1DA001F9C1D /* RestaurantBillPayementApp.app */,
+				78C6C3F82B5FC1DC001F9C1D /* RestaurantBillPayementAppTests.xctest */,
+				78C6C4022B5FC1DC001F9C1D /* RestaurantBillPayementAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C6C3EA2B5FC1DA001F9C1D /* RestaurantBillPayementApp */ = {
+			isa = PBXGroup;
+			children = (
+				78C6C3EB2B5FC1DA001F9C1D /* RestaurantBillPayementAppApp.swift */,
+				78C6C3ED2B5FC1DA001F9C1D /* ContentView.swift */,
+				78C6C4152B5FC217001F9C1D /* PaymentViewModel.swift */,
+				78C6C4172B60C1EF001F9C1D /* PaymentModel.swift */,
+				78C6C3EF2B5FC1DC001F9C1D /* Assets.xcassets */,
+				78C6C3F12B5FC1DC001F9C1D /* Preview Content */,
+			);
+			path = RestaurantBillPayementApp;
+			sourceTree = "<group>";
+		};
+		78C6C3F12B5FC1DC001F9C1D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				78C6C3F22B5FC1DC001F9C1D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78C6C3FB2B5FC1DC001F9C1D /* RestaurantBillPayementAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				78C6C3FC2B5FC1DC001F9C1D /* RestaurantBillPayementAppTests.swift */,
+			);
+			path = RestaurantBillPayementAppTests;
+			sourceTree = "<group>";
+		};
+		78C6C4052B5FC1DC001F9C1D /* RestaurantBillPayementAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78C6C4062B5FC1DC001F9C1D /* RestaurantBillPayementAppUITests.swift */,
+				78C6C4082B5FC1DC001F9C1D /* RestaurantBillPayementAppUITestsLaunchTests.swift */,
+			);
+			path = RestaurantBillPayementAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78C6C3E72B5FC1DA001F9C1D /* RestaurantBillPayementApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C6C40C2B5FC1DC001F9C1D /* Build configuration list for PBXNativeTarget "RestaurantBillPayementApp" */;
+			buildPhases = (
+				78C6C3E42B5FC1DA001F9C1D /* Sources */,
+				78C6C3E52B5FC1DA001F9C1D /* Frameworks */,
+				78C6C3E62B5FC1DA001F9C1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestaurantBillPayementApp;
+			productName = RestaurantBillPayementApp;
+			productReference = 78C6C3E82B5FC1DA001F9C1D /* RestaurantBillPayementApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78C6C3F72B5FC1DC001F9C1D /* RestaurantBillPayementAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C6C40F2B5FC1DD001F9C1D /* Build configuration list for PBXNativeTarget "RestaurantBillPayementAppTests" */;
+			buildPhases = (
+				78C6C3F42B5FC1DC001F9C1D /* Sources */,
+				78C6C3F52B5FC1DC001F9C1D /* Frameworks */,
+				78C6C3F62B5FC1DC001F9C1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78C6C3FA2B5FC1DC001F9C1D /* PBXTargetDependency */,
+			);
+			name = RestaurantBillPayementAppTests;
+			productName = RestaurantBillPayementAppTests;
+			productReference = 78C6C3F82B5FC1DC001F9C1D /* RestaurantBillPayementAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78C6C4012B5FC1DC001F9C1D /* RestaurantBillPayementAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C6C4122B5FC1DD001F9C1D /* Build configuration list for PBXNativeTarget "RestaurantBillPayementAppUITests" */;
+			buildPhases = (
+				78C6C3FE2B5FC1DC001F9C1D /* Sources */,
+				78C6C3FF2B5FC1DC001F9C1D /* Frameworks */,
+				78C6C4002B5FC1DC001F9C1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78C6C4042B5FC1DC001F9C1D /* PBXTargetDependency */,
+			);
+			name = RestaurantBillPayementAppUITests;
+			productName = RestaurantBillPayementAppUITests;
+			productReference = 78C6C4022B5FC1DC001F9C1D /* RestaurantBillPayementAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78C6C3E02B5FC1DA001F9C1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					78C6C3E72B5FC1DA001F9C1D = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					78C6C3F72B5FC1DC001F9C1D = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 78C6C3E72B5FC1DA001F9C1D;
+					};
+					78C6C4012B5FC1DC001F9C1D = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 78C6C3E72B5FC1DA001F9C1D;
+					};
+				};
+			};
+			buildConfigurationList = 78C6C3E32B5FC1DA001F9C1D /* Build configuration list for PBXProject "RestaurantBillPayementApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78C6C3DF2B5FC1DA001F9C1D;
+			productRefGroup = 78C6C3E92B5FC1DA001F9C1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78C6C3E72B5FC1DA001F9C1D /* RestaurantBillPayementApp */,
+				78C6C3F72B5FC1DC001F9C1D /* RestaurantBillPayementAppTests */,
+				78C6C4012B5FC1DC001F9C1D /* RestaurantBillPayementAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78C6C3E62B5FC1DA001F9C1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C6C3F32B5FC1DC001F9C1D /* Preview Assets.xcassets in Resources */,
+				78C6C3F02B5FC1DC001F9C1D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C6C3F62B5FC1DC001F9C1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C6C4002B5FC1DC001F9C1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78C6C3E42B5FC1DA001F9C1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C6C4182B60C1EF001F9C1D /* PaymentModel.swift in Sources */,
+				78C6C3EE2B5FC1DA001F9C1D /* ContentView.swift in Sources */,
+				78C6C4162B5FC217001F9C1D /* PaymentViewModel.swift in Sources */,
+				78C6C3EC2B5FC1DA001F9C1D /* RestaurantBillPayementAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C6C3F42B5FC1DC001F9C1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C6C3FD2B5FC1DC001F9C1D /* RestaurantBillPayementAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C6C3FE2B5FC1DC001F9C1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C6C4072B5FC1DC001F9C1D /* RestaurantBillPayementAppUITests.swift in Sources */,
+				78C6C4092B5FC1DC001F9C1D /* RestaurantBillPayementAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78C6C3FA2B5FC1DC001F9C1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78C6C3E72B5FC1DA001F9C1D /* RestaurantBillPayementApp */;
+			targetProxy = 78C6C3F92B5FC1DC001F9C1D /* PBXContainerItemProxy */;
+		};
+		78C6C4042B5FC1DC001F9C1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78C6C3E72B5FC1DA001F9C1D /* RestaurantBillPayementApp */;
+			targetProxy = 78C6C4032B5FC1DC001F9C1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		78C6C40A2B5FC1DC001F9C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78C6C40B2B5FC1DC001F9C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78C6C40D2B5FC1DC001F9C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RestaurantBillPayementApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.RestaurantBillPayementApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78C6C40E2B5FC1DC001F9C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RestaurantBillPayementApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.RestaurantBillPayementApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78C6C4102B5FC1DD001F9C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.RestaurantBillPayementAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestaurantBillPayementApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RestaurantBillPayementApp";
+			};
+			name = Debug;
+		};
+		78C6C4112B5FC1DD001F9C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.RestaurantBillPayementAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestaurantBillPayementApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RestaurantBillPayementApp";
+			};
+			name = Release;
+		};
+		78C6C4132B5FC1DD001F9C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.RestaurantBillPayementAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestaurantBillPayementApp;
+			};
+			name = Debug;
+		};
+		78C6C4142B5FC1DD001F9C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.RestaurantBillPayementAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestaurantBillPayementApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78C6C3E32B5FC1DA001F9C1D /* Build configuration list for PBXProject "RestaurantBillPayementApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C6C40A2B5FC1DC001F9C1D /* Debug */,
+				78C6C40B2B5FC1DC001F9C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C6C40C2B5FC1DC001F9C1D /* Build configuration list for PBXNativeTarget "RestaurantBillPayementApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C6C40D2B5FC1DC001F9C1D /* Debug */,
+				78C6C40E2B5FC1DC001F9C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C6C40F2B5FC1DD001F9C1D /* Build configuration list for PBXNativeTarget "RestaurantBillPayementAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C6C4102B5FC1DD001F9C1D /* Debug */,
+				78C6C4112B5FC1DD001F9C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C6C4122B5FC1DD001F9C1D /* Build configuration list for PBXNativeTarget "RestaurantBillPayementAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C6C4132B5FC1DD001F9C1D /* Debug */,
+				78C6C4142B5FC1DD001F9C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78C6C3E02B5FC1DA001F9C1D /* Project object */;
+}
